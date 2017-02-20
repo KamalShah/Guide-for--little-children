@@ -1,51 +1,5 @@
 import random
-
-while True:
-	print("""Hello, friend!
-	Today we will play !""")
-
-	a = input("1 Start, 2 Over")
-	if a == "1":
-		print("Okay, let's start!")
-	else:
-		print("Goodbye")
-		break
-
-	print("""You hit there!
-	If you want win, you must play cool! 
-	""")
-
-	print(""" You was hit in dark city.
-	What will you doing?""")
-
-	a = input("1 Go away, 2 Go to the city")
-	if a == "1":
-		print("Game over")
-		break
-	else:
-		print("Wow! Let's go!")
-
-	print(""" You see a robber!
-	What will you do?""")	
-			   
-	a = input("1 kill him, 2 run away")
-	if a == "1":
-		print("You are a hero!")
-	else:
-		print("""I am sorry, but you was died
-			because you was saved him!""")	
-		break
-
-	print("""Okay, you passed this mini-game!
-		""")
-input()
-
-	a = input("1 continue, 2 over") 
-	if a == "1":
-		print("Okay, let's go!")
-	else:
-		print("Goodbye")
-		break		
+	
 
 		board = list(range(1,10))
 
@@ -101,5 +55,4 @@ def main(board):
             break
     draw_board(board)
 
-main(board)	
-
+main(board)
